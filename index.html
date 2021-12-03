@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--for the responsive part-->
+    <div class="main-wrap">
+        <div class="nav-background">
+            <!--for the mobile navigation bar-->
+            <div class="mobile-logo">
+                <img src="../images/logo.png"alt="no image">
+            </div>
+            <div class="mobile-navbar">
+                <div class="mobile-cart">
+                    <div class="flex items-center">
+                        <img src="./icons/cart.png"alt="no image">
+                        <b><a href="#">0 items</a></b>
+                    </div>
+                </div>
+                <div class="navbar-top">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#">Log in</a>
+                        </li>
+                        <li>
+                            <a href="#">Register</a>
+                        </li>
+                    </ul>     
+               </div>
+            <div class="mobile-contact flex items-center">
+                <i class="fa fa-phone fas"></i>
+                <div>
+                    <h5>Call us: (+84) 123 456 789</h5>
+                    <h6>E-mail : support@freshmeal.com</h6>
+                </div>
+            </div>
+            <div class="mobile-working flex items-center">
+                <i class="fa fa-clock-o fas"></i>
+                <div>
+                    <h5>Working Hours:</h5>
+                     <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="site-content-wrap">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-bar-chart">
+                <line x1="12" y1="20" x2="12" y2="10" />
+                <line x1="18" y1="20" x2="18" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                 <!--first section-->
+    <header class="topbar">
+        <div class="container flex justify-between items-center">
+            <div class="icons">
+                <a href="#"><img src="./icons/s1.jpg"alt="no"></a>
+                <a href="#"><img src="./icons/s2.jpg"alt="no"></a>
+                <a href="#"><img src="./icons/s3.png"alt="no"></a>
+                <a href="#"><img src="./icons/s4.png"alt="no"></a>
+                <a href="#"><img src="./icons/search.png"alt="no"></a>
+            </div>
+            <div class="auth flex items-center">
+                <div>
+                    <img src="./icons/user.png">
+                    <a href="#">Login</a>
+                </div>
+                <span class="divider">|</span>
+                <div>
+                    <img src="./icons/edit.png">
+                    <a href="#">Register now</a>
+                </div>
+                <span class="divider">|</span>
+                <div>
+                    <img src="./icons/cart.png">
+                    <a href="#">0 items</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--second section which is the navbar-->
+    <nav>
+        <div class="top">
+            <div class="container flex justify-between">
+                <!--creting the 3 div -->
+                <div class="contact flex items-center ">
+                    <img src="./icons/call.png">
+                    <div>
+                    <h5>Call US: (+84) 123 456 789</h5>
+                    <h6>E-mail : support@freshmeal.com</h6></div>
+                </div>
+                <div class="brand">
+                    <img src="../images/logo.png"alt="no logo">
+                </div>
+                <div class="time flex items-center">
+                    <img src="./icons/clock.png">
+                    <div>
+                    <h5>Working Hours:</h5>
+                    <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--the next section of navbar-->
+        <div class="navbar">
+            <div class="container flex justify-center">
+                <a href="#" class="active">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Products</a>
+                <a href="#">Blogs</a>
+                <a href="#">Shop</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    <!--header section , backgrounds-->
+    <header class="hero flex items-center">
+        <div class="container">
+            <div class="welcome flex items-center">
+              <h1> <b><span>Welcome to </span></b></h1>
+            <img src="../images/logo.png"alt="not displayed">
+            </div>
+            <h2>Online Food <span>Shopping</span></h2>
+            <p>Providing the fresh quality of foods at your doorstep.</p>
+            <div>
+                <button class="btn btn-primary">Read More</button>
+                <button class="btn btn-secondary">Shop Now</button>
+            </div>
+            <div class="hero-image">
+             <img src="../images/veg.png"alt="no image">
+            </div>
+        </div>
+    </header>
+     <!--for the product section-->
+     <section class="top-products">
+         <div class="container">
+             <h2 class="section-heading">Our Products</h2>
+             <!--for the food slider-->
+             <div class="slider">
+                 <!--for the food sliding buttons-->
+                 <button class="slider-btn prev-btn">
+                     <img src="../images/prev.png">
+                 </button>
+                 <button class="slider-btn next-btn">
+                    <img src="../images/next.png">
+                </button>
+                 <div class="food-slider">
+                     <!--for the sliding portions-->
+                   <div class="food-card">
+                       <div class="product-image flex items-center justify-center">
+                           <img src="../images/pasta.png" alt="no image">
+                       </div>
+                       <hr>
+                       <div>
+                           <h2 class="text-center">Pasta</h2>
+                           <div><center>
+                            <span class="fa fa-star stars"></span>
+                            <span class="fa fa-star stars"></span>
+                            <span class="fa fa-star stars"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span></center>
+                           </div>
+                           <div class="price text-center">
+                              Rs 220
+                           </div>
+                           <div class="flex justify-center">
+                               <button>
+                                   <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                   <span>Add to cart</span>
+                               </button>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/chow.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Hakka Noodles</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star "></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 250
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/biryani.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Chicken Biryani</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 295
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/salad.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Cottage Cheese Salad</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 210
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/pancake.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Pancake</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 300
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/momos.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Chicken Momo</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 170
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/rice.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Vegetable Friedrice</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 200
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <div class="product-image flex items-center justify-center">
+                        <img src="../images/gulabjamun.png" alt="no image">
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="text-center">Gulabjamun</h2>
+                        <div><center>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star stars"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span></center>
+                        </div>
+                        <div class="price text-center">
+                            Rs 100
+                        </div>
+                        <div class="flex justify-center">
+                            <button>
+                                <span class="fa fa-shopping-cart"style="padding:4px;background-color:#D9E93B;"></span>
+                                <span>Add to cart</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+             </div>
+             <div class="text-center btn-wrapper">
+                 <button class="btn btn-secondary">View More</button>
+             </div>
+         </div>
+     </section>
+       <!--About Us section-->
+       <section class="about">
+           <div class="container">
+               <h1 class="section-heading">About Fresh Foods</h1>
+               <div class="about-wrapper flex">
+                   <div class="flex-1">
+                       <img src="../images/fruits.png" alt="no image">
+                   </div>
+                   <div class="flex-1">
+                       <h2>Fresh Foods will keep healthy</h2>
+                       <p>Our meals look and taste like home cooked meals.We ship our fresh foods in India only, we are able to package them in containers similar to a local restaurant.By focusing only on local deliveries, we are able to source all of our ingredients locally and support local businesses. We shop at the same local markets that you would shop at too here in any parts of India. </p>
+                       <button class="btn btn-secondary">Read More</button>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--Our Services section-->
+       <section class="services">
+           <div class="container">
+               <h1 class="section-heading">Our Services</h1>
+               <div class="wrap flex">
+                   <div class="servicing">
+                       <img src="../images/delivery.png"alt="no image">
+                       <h2 class="text-primary"> Home Delivery</h2>
+                        <p>Free delivery at your doorstep on purchase of more than Rs.500</p>
+                        <button class="btn btn-secondary">Read more</button>
+                    </div>
+                    <div class="servicing">
+                        <img src="../images/bag.png"alt="no image">
+                        <h2 class="text-primary"> 15 days of Return Service</h2>
+                         <p>Returning the purchased items within 15 days of delivery date</p>
+                         <button class="btn btn-secondary">Read more</button>
+                     </div>
+                     <div class="servicing">
+                        <img class="icon"src="../images/cash.png"alt="no image">
+                        <h2 class="text-primary"> Guaranteed Cash Back</h2>
+                         <p>50% cash back on every purchase of on Rs. 2000.</p>
+                         <button class="btn btn-secondary">Read more</button>
+                     </div>
+               </div>
+           </div>
+       </section>
+       <!--best deals section-->
+       <section class="deals">
+           <div class="container">
+               <h1 class="section-heading text-pure">Deals of the week</h1>
+               <div class="hours">
+                   <div>
+                       <span>05</span>
+                       <span>Days</span>
+                   </div>
+                   <div>
+                    <span>24</span>
+                    <span>Hours</span>
+                </div>
+                   <div>
+                    <span>50</span>
+                    <span>Minutes</span>
+                   </div>
+                   <div>
+                    <span>30</span>
+                    <span>Seconds</span>
+                   </div>
+               </div>
+           </div>
+       </section>
+        <!--blog section-->
+        <section class="blog">
+            <div class="container">
+                <h1 class="section-heading">Recent News From Blog</h1>
+                <div class="news-wrapper">
+                    <div class="card">
+                        <div>
+                            <img src="../images/cakecup.jpg" alt="no image">
+                        </div>
+                        <div class="card-content">
+                            <div class="span-meta">
+                                <span>03 October,2021</span>
+                                <div>
+                                    <span>Posted by <strong>Fresh Food</strong></span>
+                                    <span class="test">10 comments</span>
+                                </div>
+                            </div>
+                            <h3>A cup of coffee with a chocolate cake</h3>
+                            <p>A sweet combination of cake with coffee which is mouthwatering in this lovely winter days.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="../images/macaroons.jpg" alt="no image">
+                        </div>
+                        <div class="card-content">
+                            <div class="span-meta">
+                                <span>03 November,2021</span>
+                                <div>
+                                    <span>Posted by <strong>Fresh Food</strong></span>
+                                    <span class="test">12 comments</span>
+                                </div>
+                            </div>
+                            <h3>Macaroons</h3>
+                            <p>Macaroon a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond meal, and food colouring.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center btn-wrapper">
+                    <button class="btn btn-secondary">View all</button>
+                </div>
+        </section>
+        <!--subsscribe letter section-->
+        <section class="subscribe">
+            <div class="container flex items-center">
+                <div>
+                    <img src="../images/straw.png" alt="">
+                </div>
+                <div>
+                    <h1>Subscribe to your newsletter</h1>
+                    <p>Sign up to receive a free eCookbook with the top 25 most popular recipes.Future of FreshFoods Newsletter covers all you want to know about food innovation.</p>
+                    <div class="input-wrap">
+                        <input type="email" placeholder="email@freshfoods.com">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--contact and map section-->
+        <section class="contact flex">
+            <div class="info">
+                <h1 class="section-heading">Contact US</h1>
+                <div class="coninfo">
+                    <div>
+                      <div>
+                        <i class="fa fa-phone fas"></i>
+                        <div>
+                            <b><span>Call Us:</span></b>
+                            <span>(+84) 123 456 789</span>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope fas"></i>
+                        <div>
+                           <b> <span>Mail Us:</span></b>
+                            <span>email@freshfoods.com</span>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa fa-clock-o fas"></i>
+                        <div>
+                            <b><span>Working Hours:</span></b>
+                            <span>Mon - Sat (8.00am - 12.00am)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--map section-->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98410.15520092372!2d88.41522015864949!3d22.590666857575357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027152eb607059%3A0x265403909555d32c!2sAcropolis%20Mall!5e0!3m2!1sen!2sin!4v1638348491508!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <div class="container">
+                <div class="box">
+                    <h3>About Us</h3>
+                    <p> Online delivery of food at your doorstep.</p>
+                    <button class="btn btn-secondary">Know more</button>
+                </div>
+                <div class="box">
+                    <h3>Quik Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact us</a>
+                                </li>
+
+                            </ul>
+                </div>
+                <div class="box">
+                    <h3>Get Social</h3>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./icons/s1.jpg"alt="no">
+                            <span>Instagram</span>
+                            </a>           
+                        </li>
+                        <li>
+                            <a href="#"><img src="./icons/s2.jpg"alt="no">
+                            <span>Facebook</span>
+                            </a>           
+                        </li>
+                        <li>
+                            <a href="#"><img src="./icons/google.png"alt="no">
+                            <span>Google</span>
+                            </a>           
+                        </li>
+                        <li>
+                            <a href="#"><img src="./icons/s4.png"alt="no">
+                            <span>Twitter</span>
+                            </a>           
+                        </li>
+                    </ul>
+                </div>
+                <div class="box insta">
+                    <h3>Instagram</h3>
+                    <div class="pic-wrap">
+                        <div>
+                            <img src="../images/pic1.jpg"alt="no image">
+                        </div>
+                        <div>
+                            <img src="../images/pic2.jpg"alt="no image">
+                        </div>
+                        <div>
+                            <img src="../images/pic3.png"alt="no image">
+                        </div>
+                        <div>
+                            <img src="../images/pic4.png"alt="no image">
+                        </div>
+                        <div>
+                            <img src="../images/pic5.png"alt="no image">
+                        </div>
+                        <div>
+                            <img src="../images/pic6.png"alt="no image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--copyright section-->
+        <footer class="copy">
+            <div> Copyright © 2021 .All rights reserved by <a href="#">Fresh Food</a>.</div>
+        </footer>
+            </div>
+        </div>
+    </div>
+   
+        <!--Script and j query links-->
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
