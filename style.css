@@ -220,7 +220,6 @@ nav .navbar a:hover{
 /*header background */
 header.hero{
   height:400px;
-  width:100%;
   background-repeat:no-repeat;
   background-image:url('./images/back2.png');
   background-position: 0% 0%;
