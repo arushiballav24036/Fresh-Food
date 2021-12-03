@@ -221,7 +221,7 @@ nav .navbar a:hover{
 header.hero{
   height:400px;
   background-repeat:no-repeat;
-  background-image:url(./images/back2.png);
+  background-image:url(../images/back2.png);
   background-position: 0% 0%;
   overflow:hidden; 
   
